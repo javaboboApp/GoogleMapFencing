@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Error strings -->
+    <string name="geofence_not_available">Geofence service is not available now</string>
+    <string name="geofence_too_many_geofences">Your app has registered too many geofences</string>
+    <string name="geofence_too_many_pending_intents">
+        You have provided too many PendingIntents to the addGeofences() call
+    </string>
+    <string name="unknown_geofence_error">
+        Unknown error: the Geofence service is not available now
+    </string>
+
+    <string name="permission_denied_explanation">You need to grant location permission in order to use the app.</string>
+    <string name="location_required_error">Location services must be enabled for using this app.</string>
+    <!--    Geofence Status Strings-->
+    <string name="geofence_entered">Geofence entered.</string>
+    <string name="geofences_added"> Geofence added.</string>
+    <string name="geofences_not_added">Problem in adding geofences.</string>
+    <string name="geofences_removed">Geofences removed.</string>
+    <string name="geofences_not_removed">Geofences not removed.</string>
+
+    <!-- Notification Strings-->
+    <string name="channel_name">GeofenceStatus</string>
+    <string name="notification_channel_description">Geofence status notification</string>
+    <string name="content_text">It point of interest is 5 metres away from you</string>
+
+    <!-- Other strings -->
+    <string name="settings">Settings</string>
+    <string name="app_name">MyPlaceCompass</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="cafe_text">Cafe</string>
+    <string name="police_text">Police</string>
+    <string name="school_item">School</string>
+    <string name="hospital_item">Hospital</string>
+    <string name="gym_item">Gym</string>
+    <string name="zoo_item">Zoo</string>
+    <string name="laundry_item">Laundry</string>
+    <string name="park_item">Park</string>
+    <string name="no_photos">No photos</string>
+    <string name="directions_text">Directions</string>
+    <string name="yout_current_position_market_title">This is you!</string>
+
+</resources>
