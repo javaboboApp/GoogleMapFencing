@@ -65,7 +65,7 @@ fun NotificationManager.sendGeofenceEnteredNotification(
     fenceId: String
 ) {
     val contentIntent = Intent(context, MapActivity::class.java)
-    contentIntent.putExtra(GeofencingConstants.EXTRA_GEOFENCE_INDEX, "001")
+    contentIntent.putExtra(GeofencingConstants.EXTRA_GEOFENCE_INDEX, fenceId)
 
     val contentPendingIntent = PendingIntent.getActivity(
         context,
